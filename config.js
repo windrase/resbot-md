@@ -19,10 +19,10 @@ Script **Autoresbot** resmi menjadi **Open Source** dan dapat digunakan secara g
 import moment from "moment-timezone";
 
 const CONNECTION = "pairing"; // qr atau pairing
-const OWNER_NAME = "Autoresbot";
-const NOMOR_BOT = "628xxxxx"; // 628xx nomor wa
-const DESTINATION = "group"; // group , private, both
-const APIKEY = ""; // apikey dari autoresbot.com (paket apikey)
+const OWNER_NAME = "WINTUNELINGVPN";
+const NOMOR_BOT = "639361350391"; // 628xx nomor wa
+const DESTINATION = "both"; // group , private, both
+const APIKEY = "5acf2fc0684047c5bbd6e902"; // apikey dari autoresbot.com (paket apikey)
 const RATE_LIMIT = 3000; // 3 detik/chat
 const SIMILARITY = true; // Pencarian kemiripan command (true, false)
 const MODE = "production"; // [production, development] (jangan di ubah kecuali anda developer)
@@ -30,8 +30,8 @@ const VERSION = global.version; // don't edit
 
 const EMAIL = "autoresbot@gmail.com";
 const REGION = "Indonesia";
-const WEBSITE = "autoresbot.com";
-const DATA_OWNER = ["6282154365238"];
+const WEBSITE = "t.me/wintunelingvpnbot";
+const DATA_OWNER = ["6285921645742"];
 
 // Konfiqurasi Chat
 const ANTI_CALL = false; // jika true (setiap yang nelpon pribadi akan di block)
@@ -59,7 +59,7 @@ const BADWORD_ACTION = "both"; // tindakan setelah warning terpenuhi (kick, bloc
 const SPAM_LIMIT = 3; // Batas pesan dianggap spam
 const SPAM_COULDOWN = 10; // Waktu cooldown dalam detik (10 detik)
 const SPAM_WARNING = 3; // Jumlah maksimum peringatan sebelum tindakan diambil
-const SPAM_ACTION = "both"; // tindakan setelah warning terpenuhi (kick, block, both)
+const SPAM_ACTION = "kick"; // tindakan setelah warning terpenuhi (kick, block, both)
 
 // More
 const STATUS_SCHEDULED = true;
